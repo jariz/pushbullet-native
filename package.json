@@ -1,0 +1,33 @@
+{
+  "name": "pushbullet-native",
+  "version": "1.0.0",
+  "description": "Receive native pushbullet notifications",
+  "main": "index.js",
+  "dependencies": {
+    "clor": "^1.0.2",
+    "forever": "^0.14.2",
+    "forever-monitor": "^1.5.2",
+    "forever-win": "^0.10.11",
+    "foreverize": "^0.1.0",
+    "meow": "^3.3.0",
+    "node-notifier": "^4.2.3",
+    "node-persist": "0.0.6",
+    "pushbullet": "^1.4.3",
+    "sudo-block": "^1.2.0"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.9.1"
+  },
+  "optionalDependencies": {
+    "node-windows": "*",
+    "node-unix": "*",
+    "node-mac": "*"
+
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
